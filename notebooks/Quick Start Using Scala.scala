@@ -9,6 +9,10 @@
 
 // COMMAND ----------
 
+// MAGIC %fs ls /
+
+// COMMAND ----------
+
 // Take a look at the file system
 display(dbutils.fs.ls("/databricks-datasets/samples/docs/"))
 
