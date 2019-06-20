@@ -5,6 +5,10 @@
 
 // COMMAND ----------
 
+// MAGIC %md add some comments to test changes to Git
+
+// COMMAND ----------
+
 // Take a look at the file system
 display(dbutils.fs.ls("/databricks-datasets/samples/docs/"))
 
