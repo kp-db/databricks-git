@@ -75,3 +75,7 @@ linesWithSpark.count()
 
 // Filter all of the lines wihtin the RDD and output the first five rows
 linesWithSpark.collect().take(5).foreach(println)
+
+// COMMAND ----------
+
+// MAGIC %md add some other cell to test git integration
